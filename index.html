@@ -32,6 +32,8 @@
   ul.services{list-style:none}
   ul.services li{background:#fff;border:1px solid var(--line);border-radius:.6rem;padding:.9rem 1.2rem;margin-bottom:.6rem;font-weight:600}
   ul.services li span{color:var(--muted);font-weight:400;font-size:.92rem;display:block}
+  .cat{margin-bottom:1.8rem}
+  .cat h3{font-size:.82rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#b45309;margin-bottom:.6rem}
 
   .gallery{list-style:none;display:grid;grid-template-columns:repeat(2,1fr);gap:1rem}
   @media(max-width:520px){.gallery{grid-template-columns:1fr}}
@@ -59,15 +61,36 @@
 
 <section id="tjenester">
   <h2>Tjenester</h2>
-  <ul class="services">
-    <li>Graving <span>utgraving, oppfylling og avretting til garasje, byggetomter og uteområder</span></li>
-    <li>Drenering <span>grøfter langs veier, gårdsveier og jorder</span></li>
-    <li>Gårdsplasser og uteområder <span>oppbygging til skifer, fliser og andre overflater</span></li>
-    <li>Kantstein <span>avretting og oppfylling til 10x25 kantstein</span></li>
-    <li>Murer <span>grunnarbeid og avretting til 40x40 granittmur</span></li>
-    <li>Kjellertrapp <span>riving av gammel trapp og grunnarbeid til ny</span></li>
-    <li>Småjobber og vedlikehold <span>det meste innen graving, drenering og uteområder</span></li>
-  </ul>
+
+  <div class="cat">
+    <h3>Graving og grunnarbeid</h3>
+    <ul class="services">
+      <li>Grunnarbeid til garasje og tomter <span>utgraving, oppfylling og avretting – klart for støping og videre arbeid</span></li>
+      <li>Kjellertrapper <span>riving av gammel utvendig trapp og grunnarbeid til en ny, solid trapp</span></li>
+    </ul>
+  </div>
+
+  <div class="cat">
+    <h3>Drenering</h3>
+    <ul class="services">
+      <li>Grøfter <span>grøftegraving langs veier, gårdsveier og jorder, slik at vannet ledes dit det skal</span></li>
+    </ul>
+  </div>
+
+  <div class="cat">
+    <h3>Uteområder</h3>
+    <ul class="services">
+      <li>Gårdsplasser og uteområder <span>oppbygging og avretting til skifer, fliser og belegg – et fundament som holder i mange år</span></li>
+      <li>Kantstein og murer <span>nøyaktig grunnarbeid, slik at mureren får en perfekt arbeidsflate fra første stein</span></li>
+    </ul>
+  </div>
+
+  <div class="cat">
+    <h3>Småjobber og vedlikehold</h3>
+    <ul class="services">
+      <li>Den gravingen eller grøften som har ventet lenge <span>små jobber tas gjerne imot, også med kort varsel</span></li>
+    </ul>
+  </div>
 </section>
 
 <section id="om">
